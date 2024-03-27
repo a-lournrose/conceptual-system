@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ConceptualSystem_WPF_MVVM/1.0.0": {
+        "runtime": {
+          "ConceptualSystem_WPF_MVVM.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConceptualSystem_WPF_MVVM/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
