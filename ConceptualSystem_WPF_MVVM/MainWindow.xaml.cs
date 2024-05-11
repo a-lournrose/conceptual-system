@@ -19,6 +19,13 @@ namespace ConceptualSystem_WPF_MVVM
         public MainWindow()
         {
             InitializeComponent();
+            var db = new ConceptTableCreator();
+            db.CreateCreatedTablesTable();
+            db.CreateConceptsTable();
+            db.CreateCreatedFieldsTable();
+          //  db.CreateConceptTable("person", new []{"name", "age" });
+            db.CreateConceptTable("study", new []{"class", "grade" }, "person");
+            
         }
     }
 }
