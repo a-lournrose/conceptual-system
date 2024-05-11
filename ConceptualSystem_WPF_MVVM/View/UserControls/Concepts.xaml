@@ -92,10 +92,12 @@
                  VerticalContentAlignment="Center"
         />
                 <ComboBox Grid.Column="2" 
-                  VerticalAlignment="Center" 
-                  Margin="5"
-                  Width="300"
+                          SelectedIndex="0"
+                          VerticalAlignment="Center" 
+                          Margin="5"
+                          Width="300"
         >
+                    <ComboBoxItem>Создание понятия</ComboBoxItem>
                     <ComboBoxItem>Часть которого является</ComboBoxItem>
                     <ComboBoxItem>Является видовым понятием</ComboBoxItem>
                     <ComboBoxItem>Является частью понятия</ComboBoxItem>
@@ -103,7 +105,8 @@
                     <ComboBoxItem>Является понятием-образом для понятия</ComboBoxItem>
                 </ComboBox>
             </Grid>
-            <ComboBox Grid.Column="2" VerticalAlignment="Top" Margin="5">
+            <ComboBox Grid.Column="2" VerticalAlignment="Top" Margin="5" SelectedIndex="0">
+                <ComboBoxItem>Не выбрано</ComboBoxItem>
                 <ComboBoxItem>Понятие 1</ComboBoxItem>
                 <ComboBoxItem>Понятие 2</ComboBoxItem>
                 <ComboBoxItem>Понятие 3</ComboBoxItem>

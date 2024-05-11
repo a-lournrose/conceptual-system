@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\conceptual-system-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\viewmodels\\mainviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\view\\dataprocessingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\view\\dataprocessingview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\view\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\view\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\view\\dataprocessingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\view\\dataprocessingview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|c:\\users\\user\\desktop\\conceptual-system-main\\conceptualsystem_wpf_mvvm\\view\\usercontrols\\concepts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{65174CEC-C905-42D3-AC21-27DAE5D3C5E9}|ConceptualSystem_WPF_MVVM\\ConceptualSystem_WPF_MVVM.csproj|solutionrelative:conceptualsystem_wpf_mvvm\\view\\usercontrols\\concepts.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
@@ -43,88 +19,13 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MainViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\ViewModels\\MainViewModel.cs",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\ViewModels\\MainViewModel.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\ViewModels\\MainViewModel.cs",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\ViewModels\\MainViewModel.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAQwC8AAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T23:17:02.983Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "DataProcessingView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml.cs",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml.cs",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAACkAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T23:15:58.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginView.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml.cs",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml.cs",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAwwC4AAAAZAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-11T23:10:56.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginView.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\View\\LoginView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T23:10:55.035Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\App.xaml",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\App.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\App.xaml",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\App.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T23:10:45.358Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Concepts.xaml",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\UserControls\\Concepts.xaml",
               "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\View\\UserControls\\Concepts.xaml",
               "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\UserControls\\Concepts.xaml",
               "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\View\\UserControls\\Concepts.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T22:53:59.469Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DataProcessingView.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml",
-              "RelativeDocumentMoniker": "ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\conceptual-system-main\\ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml",
-              "RelativeToolTip": "ConceptualSystem_WPF_MVVM\\View\\DataProcessingView.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-11T22:52:57.13Z",
+              "WhenOpened": "2024-05-11T23:31:32.565Z",
               "EditorCaption": ""
             }
           ]
