@@ -1,4 +1,5 @@
-﻿using ConceptualSystem_WPF_MVVM.View.UserControls;
+﻿using ConceptualSystem_WPF_MVVM.View;
+using ConceptualSystem_WPF_MVVM.View.UserControls;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,9 +39,15 @@ namespace ConceptualSystem_WPF_MVVM.ViewModels
             {
                 case "Concepts":
                     CurrentContent = new Concepts();
+                    DataProcessingView.CloseInstance();
                     break;
                 case "Database":
                     CurrentContent = new Database();
+                    DataProcessingView dataProcessingView = DataProcessingView.GetInstance();
+                    if (!dataProcessingView.IsVisible)
+                    {
+                        dataProcessingView.Show();
+                    }
                     break;
             }
         }

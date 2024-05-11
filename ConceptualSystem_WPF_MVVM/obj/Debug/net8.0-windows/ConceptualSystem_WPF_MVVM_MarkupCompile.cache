@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
 C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\App.xaml
-5879946419
+6-370044661
 
-10-1673284346
+11-1635672007
 198915248976
-Styles\UIColors.xaml;View\LoginView.xaml;View\MainView.xaml;View\UserControls\Concepts.xaml;View\UserControls\Database.xaml;
+Styles\UIColors.xaml;View\DataProcessingView.xaml;View\LoginView.xaml;View\MainView.xaml;View\UserControls\Concepts.xaml;View\UserControls\Database.xaml;
 
 False
 

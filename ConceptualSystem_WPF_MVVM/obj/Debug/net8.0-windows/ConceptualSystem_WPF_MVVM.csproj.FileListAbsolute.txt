@@ -51,3 +51,6 @@ C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug
 C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\View\UserControls\Database.g.cs
 C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\View\UserControls\Concepts.baml
 C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\View\UserControls\Database.baml
+C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\ConceptualSystem_WPF_MVVM.sourcelink.json
+C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\View\DataProcessingView.g.cs
+C:\Users\User\Desktop\conceptual-system-main\ConceptualSystem_WPF_MVVM\obj\Debug\net8.0-windows\View\DataProcessingView.baml
