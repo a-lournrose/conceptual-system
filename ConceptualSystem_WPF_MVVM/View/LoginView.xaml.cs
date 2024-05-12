@@ -42,9 +42,9 @@ namespace ConceptualSystem_WPF_MVVM.View
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {   
-            MainView mainView = new MainView();
+            var mainView = new MainView();
             mainView.Show();
-            this.Close();
+            Close();
         }
     }
 }

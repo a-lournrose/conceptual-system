@@ -16,7 +16,7 @@ namespace ConceptualSystem_WPF_MVVM.ViewModels
 
         public UserControl CurrentContent
         {
-            get { return _currentContent; }
+            get => _currentContent;
             set
             {
                 _currentContent = value;
@@ -42,7 +42,7 @@ namespace ConceptualSystem_WPF_MVVM.ViewModels
                     break;
                 case "Database":
                     CurrentContent = new Database();
-                    DataProcessingView dataProcessingView = DataProcessingView.GetInstance();
+                    var dataProcessingView = DataProcessingView.GetInstance();
                     if (!dataProcessingView.IsVisible)
                     {
                         dataProcessingView.Show();

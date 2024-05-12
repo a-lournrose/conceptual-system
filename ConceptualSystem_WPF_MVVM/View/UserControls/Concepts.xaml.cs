@@ -24,7 +24,7 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
         {
             InitializeComponent();
 
-            List<string> conceptsWords = new List<string>
+            var conceptsWords = new List<string>
             {
                 "Паспорт",
                 "Человек",
@@ -33,7 +33,7 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
             };
             conceptsList.ItemsSource = conceptsWords;
 
-            List<string> structureConceptWords = new List<string>
+            var structureConceptWords = new List<string>
             {
                 "Фамилия",
                 "Имя",
