@@ -1,9 +1,0 @@
-﻿<Application x:Class="ConceptualSystem_WPF_MVVM.App"
-             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:ConceptualSystem_WPF_MVVM"
-             StartupUri="View/LoginView.xaml">
-    <Application.Resources>
-        <ResourceDictionary Source="/Styles/UIColors.xaml"/>
-    </Application.Resources>
-</Application>
