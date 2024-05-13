@@ -183,10 +183,8 @@
                                      VerticalContentAlignment="Center"
                                      Margin="0,0,5,0"
                             />
-                            <ComboBox Grid.Row="1" VerticalAlignment="Top" Margin="5">
-                                <ComboBoxItem>Понятие 1</ComboBoxItem>
-                                <ComboBoxItem>Понятие 2</ComboBoxItem>
-                                <ComboBoxItem>Понятие 3</ComboBoxItem>
+                            <ComboBox Name="ConceptsList" Grid.Row="1" VerticalAlignment="Top" Margin="5 "   SelectionChanged="ConceptsList_OnSelected">
+                                
                             </ComboBox>
                             <TextBox Grid.Column="1" 
                                      Grid.Row="1"

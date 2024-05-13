@@ -132,12 +132,12 @@
 
             <ListBox Grid.Row="2"
                      Height="250"
-                     Name="conceptsList"
+                     Name="ConceptsList"
                      HorizontalContentAlignment="Stretch"
                      VerticalContentAlignment="Stretch"
                      Style="{StaticResource CustomListBoxStyle}"
                      AllowDrop="True"
-                     Selected="ConceptsList_OnSelected">
+                     SelectionChanged="ConceptsList_OnSelected">
                 <ListBox.ItemTemplate>
                     <DataTemplate>
                         <TextBlock Text="{Binding}" VerticalAlignment="Center" />
@@ -379,7 +379,7 @@
             <ListBox Grid.Row="2"
                      Grid.Column="2"
                      Height="250"
-                     Name="structureConceptList"
+                     Name="StructureConceptList"
                      HorizontalContentAlignment="Stretch"
                      VerticalContentAlignment="Stretch"
                      Style="{StaticResource CustomListBoxStyle}"

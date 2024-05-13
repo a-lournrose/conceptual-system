@@ -1,10 +1,11 @@
-﻿namespace Logic.Models;
+﻿using Logic.Enums;
 
-public class Concept
+namespace Logic.Models;
+
+public class ConceptRelation
 {
     public int id { get; set; }
     public string db_name { get; set; }
     public string view_name { get; set; }
-
-    public List<ConceptRelation> Relations { get; set; } 
+    public RelationType type { get; set; }
 }

@@ -11,6 +11,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Logic;
+using Logic.Models;
 
 namespace ConceptualSystem_WPF_MVVM.View
 {
@@ -20,18 +22,32 @@ namespace ConceptualSystem_WPF_MVVM.View
     public partial class DataProcessingView : Window
     {
         private static DataProcessingView instance;
+        private readonly ConceptsRepository _conceptsRepository = new ConceptsRepository();
+        private List<Concept> ConceptsDbList { get; set; }
+
         public DataProcessingView()
         {
             InitializeComponent();
+            LoadConcepts();
         }
+
+        private async Task LoadConcepts()
+        {
+            ConceptsDbList = await _conceptsRepository.GetAllConcepts();
+            ConceptsList.ItemsSource = ConceptsDbList.Select(x => x.view_name);
+        }
+
+
         public static DataProcessingView GetInstance()
         {
             if (instance == null)
             {
                 instance = new DataProcessingView();
             }
+
             return instance;
         }
+
         public static void CloseInstance()
         {
             if (instance != null)
@@ -40,6 +56,7 @@ namespace ConceptualSystem_WPF_MVVM.View
                 instance = null;
             }
         }
+
         private void Window_MouseDown(object sender, MouseButtonEventArgs e)
         {
             if (e.LeftButton == MouseButtonState.Pressed)
@@ -56,9 +73,14 @@ namespace ConceptualSystem_WPF_MVVM.View
             Application.Current.Shutdown();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private async void ConceptsList_OnSelected(object sender, SelectionChangedEventArgs e)
         {
-
+            var selectedConcept = ConceptsDbList.FirstOrDefault(x => x.view_name == ConceptsList.SelectedItem.ToString());
+            if (selectedConcept != null)
+            {
+                var conceptView = await _conceptsRepository.GetConceptData(selectedConcept.view_name);
+                Console.WriteLine(conceptView);
+            }
         }
     }
 }

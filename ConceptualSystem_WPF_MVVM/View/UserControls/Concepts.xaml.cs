@@ -24,7 +24,7 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
     public partial class Concepts : UserControl
     {
         private readonly ConceptsRepository _conceptsRepository = new ConceptsRepository();
-        public List<Concept> ConceptsList { get; set; }
+        public List<Concept> ConceptsDbList { get; set; }
 
         public Concepts()
         {
@@ -34,9 +34,9 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
 
         private async Task LoadConcepts()
         {
-            ConceptsList = await _conceptsRepository.GetAllConcepts();
-            conceptsList.ItemsSource = ConceptsList.Select(x => x.view_name);
-            ExistsConceptsComboBox.ItemsSource = ConceptsList.Select(x => x.view_name);
+            ConceptsDbList = await _conceptsRepository.GetAllConcepts();
+            ConceptsList.ItemsSource = ConceptsDbList.Select(x => x.view_name);
+            ExistsConceptsComboBox.ItemsSource = ConceptsDbList.Select(x => x.view_name);
         }
 
         private async void CreateButton_OnClick(object sender, RoutedEventArgs e)
@@ -44,14 +44,18 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
             var name = ConceptName.Text;
             var type = (RelationType)ConceptRelationType.SelectedIndex;
             var relatedConcept = ExistsConceptsComboBox.SelectedItem as string;
-            var relatedConceptId = ConceptsList.FirstOrDefault(x => x.view_name == relatedConcept)?.id;
+            var relatedConceptId = ConceptsDbList.FirstOrDefault(x => x.view_name == relatedConcept)?.id;
             await _conceptsRepository.CreateRelationConcepts(name, type, relatedConceptId);
             LoadConcepts();
         }
 
-        private void ConceptsList_OnSelected(object sender, RoutedEventArgs e)
+        private async void ConceptsList_OnSelected(object sender, RoutedEventArgs e)
         {
-            throw new NotImplementedException();
+            var concept = ConceptsList.SelectedItem as string;
+            var conceptId = ConceptsDbList.FirstOrDefault(x => x.view_name == concept)?.id;
+            var conceptRelations = await _conceptsRepository.GetConceptRelations(conceptId);
+            StructureConceptList.ItemsSource = conceptRelations.Relations.Select(x => x.view_name);
         }
+        
     }
 }

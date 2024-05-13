@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Logic;
 
 namespace ConceptualSystem_WPF_MVVM.View.UserControls
 {
@@ -20,9 +21,11 @@ namespace ConceptualSystem_WPF_MVVM.View.UserControls
     /// </summary>
     public partial class Database : UserControl
     {
+        private readonly ConceptsRepository _conceptsRepository = new ConceptsRepository();
         public Database()
         {
             InitializeComponent();
         }
+        
     }
 }
