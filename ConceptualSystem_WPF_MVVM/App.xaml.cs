@@ -1,6 +1,7 @@
 ﻿using System.Configuration;
 using System.Data;
 using System.Windows;
+using Logic;
 
 namespace ConceptualSystem_WPF_MVVM
 {
@@ -9,6 +10,12 @@ namespace ConceptualSystem_WPF_MVVM
     /// </summary>
     public partial class App : Application
     {
+        public App ()
+        {
+            var conceptTableCreator = new ConceptTableCreator();
+            conceptTableCreator.Migrate();
+            
+        }
     }
 
 }

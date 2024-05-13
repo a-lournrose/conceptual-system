@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConceptualSystem_WPF_MVVM",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logic", "Logic\Logic.csproj", "{74321C96-E4F9-4E11-9980-2F532B58195F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datebase", "Datebase\Datebase.csproj", "{9F974DD9-90FE-453F-A9FD-D9F1B8D58BDF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{74321C96-E4F9-4E11-9980-2F532B58195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74321C96-E4F9-4E11-9980-2F532B58195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74321C96-E4F9-4E11-9980-2F532B58195F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F974DD9-90FE-453F-A9FD-D9F1B8D58BDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F974DD9-90FE-453F-A9FD-D9F1B8D58BDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F974DD9-90FE-453F-A9FD-D9F1B8D58BDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F974DD9-90FE-453F-A9FD-D9F1B8D58BDF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

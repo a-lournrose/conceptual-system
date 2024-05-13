@@ -41,7 +41,7 @@ namespace ConceptualSystem_WPF_MVVM.ViewModels
                     DataProcessingView.CloseInstance();
                     break;
                 case "Database":
-                    CurrentContent = new Database();
+                    CurrentContent = new View.UserControls.Database();
                     var dataProcessingView = DataProcessingView.GetInstance();
                     if (!dataProcessingView.IsVisible)
                     {
